@@ -13,21 +13,12 @@ affililink = function() {
   };
   universalCode = {
     /* Amazon codes are present, if you want to add a custom code just follow the format of Amazon ('DOMAIN.COM': 'VARIABLE=',) */
-    'amazon.co.uk': 'tag=affililink-21',
-    'amazon.com': 'tag=affililink-20',
-    'amazon.de': 'tag=',
-    'amazon.fr': 'tag=',
-    'javari.co.uk': 'tag=',
-    'javari.de': 'tag=',
-    'javari.fr': 'tag=',
-    'amazonsupply.com': 'tag=',
-    'amazonwireless.com': 'tag=',
-    'endless.com': 'tag=',
+    'itunes.apple.com': 'at=1001l7vo',
   };
   options = {
     'replace_links': true, /* replace existing affiliate codes */
     'track_views': false, /* track views on Google Analytics */
-    'track_clicks': true /* track clicks on Google Analytics */
+    'track_clicks': false /* track clicks on Google Analytics */
     /* DO NOT EDIT BELOW THIS LINE */
   };
   track = function() {
